@@ -6,18 +6,6 @@ using namespace std;
 
 // Classes for Perimeter, Area, and Volume
 
-class Perimeter{
-    return 0;
-}
-
-class Area{
-    public:
-        int base1, base2, height, radius, length, width
-}
-
-class Volume{
-    return 0
-}
 
 int main() {
     string option;   

@@ -12,25 +12,25 @@ class triangle{
             int p;
             p = side1 + side2 + side3;
         }
-}
+};
 
 class rectangle{
     public:
-        int perimeter(int length, width){
-            p = (2*length)+(2*width);        
+        int perimeter(int length, int width){
+            int p = (2*length)+(2*width);        
         }
-        int area(int lenght, widtht{
-            a = length*width;    
+        int area(int length, int width){
+            int a = length*width;    
         }
-}
+};
 
 class circle{
     public:
         float circumference(int radius){
-            c = 2*3.14*radius        
+            float c = 2*3.14*radius;        
         }
         float area(int radius){
-            a = pi*radius
+            float a = 3.14*radius;
         }
     
-}
+};
