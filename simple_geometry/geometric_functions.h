@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cmath>
-using namespace std;
 
-class triangle{
+class Triangle{
     public:
         float area(int base, int height){
             float a;
@@ -12,9 +11,12 @@ class triangle{
             int p;
             p = side1 + side2 + side3;
         }
+        float pyramid(int base, int height, int length){
+            float v = (1/3)*base*height*length;
+        }
 };
 
-class rectangle{
+class Rectangle{
     public:
         int perimeter(int length, int width){
             int p = (2*length)+(2*width);        
@@ -22,9 +24,15 @@ class rectangle{
         int area(int length, int width){
             int a = length*width;    
         }
+        int cube(int side){
+            int c = side*side*side;
+        }
+        int rectangular_prism(int width, int height, int length){
+            int rp = width*length*height;
+        }
 };
 
-class circle{
+class Circle{
     public:
         float circumference(int radius){
             float c = 2*3.14*radius;        
@@ -32,5 +40,13 @@ class circle{
         float area(int radius){
             float a = 3.14*radius;
         }
+        float cylinder(int radius, int height){
+            float cyl = 3.14*(radius*radius)*height;
+        }
+        float sphere(int radius){
+            float s = (4/3)*(radius*radius*radius);
+        }
     
 };
+
+
