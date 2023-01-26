@@ -127,7 +127,7 @@ int main() {
                 cout << "Volume of the cylinder is: " << circle.cylinder(num1,num2) << endl;
             }
 
-            cout << "Volume works\nKeep going? (Y/N): ";
+            cout << "Need more help? (Y/N): ";
             cin >> keep_going;
             if (keep_going == "n" || keep_going == "no" || keep_going == "No"){
                 repeat = false;
