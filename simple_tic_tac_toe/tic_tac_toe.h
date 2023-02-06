@@ -157,7 +157,8 @@ class tic_tac_toe{
                     }
                 }
             }
-
+            
+            // check that board is not full to keep going
             for (int i = 0; i < 3; i++){
                 for (int j= 0; j < 3; j++){
                     if (ttt[i][j] != 'X' && ttt[i][j] != 'O'){
